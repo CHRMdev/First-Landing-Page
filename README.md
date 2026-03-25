@@ -11,10 +11,8 @@ Este projeto foi desenvolvido como um portfólio profissional apresentando:
 - **Acessibilidade** seguindo os padrões WCAG
 - **100% Vanilla HTML/CSS/JavaScript** - nenhuma biblioteca externa
 
-**Status**: ✅ Completo e Deployed
-**URL do Repositório**: [CHRMdev/First-Landing-Page](https://github.com/CHRMdev/First-Landing-Page)\
----
-**URL do Deploy **: (https://portfolio-landing-page-topaz.vercel.app/)
+**Status**: ✅ Completo
+**URL do Deploy**: https://portfolio-landing-page-topaz.vercel.app/
 ---
 
 ## 🎯 Seções Principais
