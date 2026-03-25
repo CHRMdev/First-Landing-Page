@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 scripts/search.py \"portfolio developer landing page modern minimalist professional\" --design-system -p \"Caio Henrique Portfolio\")"
+    ]
+  }
+}

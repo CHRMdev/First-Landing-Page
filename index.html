@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caio Henrique - Desenvolvedor Full Stack</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">↪</span>
+                    <span class="logo-text">CH</span>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <!-- Background Elements -->
+        <div class="hero-bg">
+            <div class="gradient-sphere gradient-1"></div>
+            <div class="gradient-sphere gradient-2"></div>
+            <div class="gradient-sphere gradient-3"></div>
+            <div class="hero-grid"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <!-- Left Side - Text Content -->
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        <span class="badge-text">Disponível para projetos</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        <span class="hero-title-line">Criando</span>
+                        <span class="hero-title-line">Experiências</span>
+                        <span class="hero-title-line highlight">Digitais</span>
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Desenvolvedor Full Stack com especialidade em design de interfaces intuitivas e arquitetura escalável.
+                    </p>
+
+                    <div class="hero-skills">
+                        <span class="skill-tag">React & Vue.js</span>
+                        <span class="skill-tag">Node.js & Python</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="#contato" class="btn btn-primary">
+                            <span>Começar Projeto</span>
+                            <span class="btn-arrow">→</span>
+                        </a>
+                        <a href="#projetos" class="btn btn-secondary">
+                            <span>Ver Portfólio</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projetos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">Clientes</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">Anos Exp.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Visual -->
+                <div class="hero-visual">
+                    <div class="visual-card">
+                        <div class="card-shine"></div>
+                        <div class="visual-content">
+                            <div class="profile-avatar">
+                                <div class="avatar-bg"></div>
+                                <span class="avatar-text">CH</span>
+                            </div>
+                            <div class="visual-text">
+                                <h3>Caio Henrique</h3>
+                                <p>Full Stack Developer</p>
+                                <div class="status-indicator">
+                                    <span class="status-dot"></span>
+                                    Trabalhando em projetos inovadores
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visual-footer">
+                            <div class="tech-badge">React</div>
+                            <div class="tech-badge">Node</div>
+                            <div class="tech-badge">Design</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projetos" class="projetos">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <p class="section-subtitle">Conheça alguns dos projetos que desenvolvi</p>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">💰</div>
+                        <h3 class="project-title">FinanceFlow</h3>
+                    </div>
+                    <p class="project-description">App de gestão financeira pessoal com gráficos interativos e relatórios automáticos</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">Ver Projeto →</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">👔</div>
+                        <h3 class="project-title">StyleHub</h3>
+                    </div>
+                    <p class="project-description">E-commerce de moda com sistema de recomendação inteligente e carrito persistente</p>
+                    <div class="project-tags">
+                        <span class="tag">Vue.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                    <a href="#" class="project-link">Ver Projeto →</a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📊</div>
+                        <h3 class="project-title">DataViz Pro</h3>
+                    </div>
+                    <p class="project-description">Dashboard de analytics com visualizações em tempo real e exportação de relatórios</p>
+                    <div class="project-tags">
+                        <span class="tag">Angular</span>
+                        <span class="tag">D3.js</span>
+                        <span class="tag">Firebase</span>
+                    </div>
+                    <a href="#" class="project-link">Ver Projeto →</a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">💪</div>
+                        <h3 class="project-title">FitTrack</h3>
+                    </div>
+                    <p class="project-description">App mobile de fitness com rastreamento de treinos, planos de alimentação e comunidade</p>
+                    <div class="project-tags">
+                        <span class="tag">React Native</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">AWS</span>
+                    </div>
+                    <a href="#" class="project-link">Ver Projeto →</a>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📅</div>
+                        <h3 class="project-title">AgendaPro</h3>
+                    </div>
+                    <p class="project-description">Sistema de agendamento inteligente com notificações automáticas e sincronização com calendários</p>
+                    <div class="project-tags">
+                        <span class="tag">Next.js</span>
+                        <span class="tag">Prisma</span>
+                        <span class="tag">Redis</span>
+                    </div>
+                    <a href="#" class="project-link">Ver Projeto →</a>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🎓</div>
+                        <h3 class="project-title">EduCloud</h3>
+                    </div>
+                    <p class="project-description">Plataforma de educação online com videoaulas, quizzes e certificados automáticos</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                    <a href="#" class="project-link">Ver Projeto →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="depoimentos" class="depoimentos">
+        <div class="container">
+            <h2 class="section-title">O que Clientes Dizem</h2>
+            <p class="section-subtitle">Depoimentos de empresas que tiveram sucesso com meus projetos</p>
+
+            <div class="testimonials-carousel" id="testimonialsCarousel">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="avatar-small">
+                            <span>JR</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">João Roberto</h4>
+                            <p class="testimonial-role">CEO - TechStart</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"Caio desenvolveu o FinanceFlow de forma impecável. Entregou antes do prazo, com excelente qualidade de código. Recomendo muito!"</p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="avatar-small">
+                            <span>MS</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Mariana Silva</h4>
+                            <p class="testimonial-role">Diretora - StyleHub</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"Profissional atencioso e dedicado. O e-commerce ficou lindo, responsivo e com ótimo desempenho. Parceria sensacional!"</p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="avatar-small">
+                            <span>PG</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Paulo Gomes</h4>
+                            <p class="testimonial-role">Founder - DataViz</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"O dashboard superou nossas expectativas. Caio tem conhecimento profundo em visualização de dados. Excelente trabalho!"</p>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="avatar-small">
+                            <span>AC</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4 class="testimonial-name">Ana Costa</h4>
+                            <p class="testimonial-role">Product Manager - FitTrack</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"Caio é um desenvolvedor excepcional. Implementou o app mobile com arquitetura impecável. Muito profissional!"</p>
+                </div>
+            </div>
+
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" id="prevBtn">←</button>
+                <div class="carousel-indicators" id="indicators"></div>
+                <button class="carousel-btn next" id="nextBtn">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Vamos Conversar?</h2>
+            <p class="section-subtitle">Tenho interesse em projetos desafiadores e novas oportunidades</p>
+
+            <div class="contact-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Seu Nome"
+                            class="form-input"
+                            required
+                        >
+                    </div>
+                    <div class="form-group">
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Seu Email"
+                            class="form-input"
+                            required
+                        >
+                    </div>
+                    <div class="form-group">
+                        <textarea
+                            id="message"
+                            placeholder="Sua Mensagem"
+                            class="form-input form-textarea"
+                            rows="5"
+                            required
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">Enviar Mensagem</button>
+                    <div class="form-feedback" id="formFeedback"></div>
+                </form>
+
+                <div class="contact-info">
+                    <h3>Entre em Contato</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <p class="contact-label">Email</p>
+                            <a href="mailto:caio@example.com">caio@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <div>
+                            <p class="contact-label">Telefone</p>
+                            <a href="tel:+5511999999999">(11) 99999-9999</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <p class="contact-label">Localização</p>
+                            <p>São Paulo, SP - Brasil</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Redes Sociais</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" title="LinkedIn">in</a>
+                            <a href="#" class="social-icon" title="GitHub">gh</a>
+                            <a href="#" class="social-icon" title="Twitter">𝕏</a>
+                            <a href="#" class="social-icon" title="Instagram">📷</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Caio Henrique. Todos os direitos reservados.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacidade</a>
+                    <a href="#" class="footer-link">Termos</a>
+                    <a href="#" class="footer-link">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
